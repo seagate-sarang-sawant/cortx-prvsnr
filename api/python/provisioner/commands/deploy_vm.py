@@ -68,7 +68,6 @@ deploy_states = dict(
         "misc_pkgs.consul.install"
     ],
     sync=[
-        "sync.software.openldap",
         "sync.software.rabbitmq"
     ],
     iopath=[

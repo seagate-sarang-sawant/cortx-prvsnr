@@ -73,7 +73,6 @@ deploy_states = dict(
         "misc_pkgs.statsd"
     ],
     sync=[
-        "sync.software.openldap",
         "sync.software.rabbitmq"
     ],
     iopath=[
